@@ -1,0 +1,28 @@
+.last p{
+    font-size: xx-small;
+    margin-left: 30px;
+}
+.input {
+    width: 160px;
+    display: inline-block;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.614);
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0.614) solid 1px;
+  }
+.label{
+    font-size: x-small;
+    margin-bottom: 0px;
+    font-weight: 600px;
+}
+.next{
+    margin-top: 50px;
+    width: 60px;
+    border-radius: 4px;
+    border-style: none;
+    border: rgba(0, 0, 0, 0.614) solid 1px;
+    background-color: rgba(196, 199, 201, 0.625);
+}

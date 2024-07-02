@@ -1,0 +1,55 @@
+body{
+    margin-left: 30px;
+
+}
+.logo{
+    margin-top: 10px;
+    width: 110px;
+}
+.heading{
+    color: #12824d;
+        font-size: 22px; 
+            font-family: "Montserrat", sans-serif; /* Specify the font family */
+            font-weight: 400; /* Specify the font weight (e.g., 400 for regular) */
+            font-style: normal; /* Specify the font style (normal, italic, etc.) */
+          
+}
+.signup{
+    font-size:12px;
+    font-weight: bolder;
+}
+.blue{
+    color: dodgerblue;
+    cursor: pointer;
+}
+/* .google img{ */
+    /* width: 150px; */
+    /* height: 22px; */
+/* } */
+.google {
+    margin-top: 10px;
+    width: 200px;
+    display: inline-block;
+    background-color: white;
+    border: none;
+    color:rgba(0, 0, 0, 0.614);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0.614) solid 1px;
+    overflow: hidden; /* Ensure image doesn't overflow */
+    position: relative; /* Use position relative */
+  }
+  
+  .google img {
+    display: block; /* Ensure the image behaves as a block element */
+    margin: auto; /* Center the image horizontally */
+    max-width: 100%; /* Ensure image fits within button */
+    max-height: 100%; /* Ensure image fits within button */
+    position: absolute; /* Use position absolute */
+    left: 40px; /* Adjust left position */
+    top: 0%; /* Align vertically centered */
+}
+  
